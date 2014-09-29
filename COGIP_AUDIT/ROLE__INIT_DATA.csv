@@ -1,0 +1,5 @@
+//FAM;Rôle(ROLE);<specid>;<fldid>;Référence;Libellé
+ORDER;ROLE;;;role_login;role_name
+DOC;ROLE;ROLE_RESPONSABLE_AUDITS;;role53174428e6c9b;Responsable des audits
+DOC;ROLE;ROLE_AUDITEUR;;ROLE_AUDITEUR;Auditeur
+DOC;ROLE;ROLE_ADMIN_FONCTIONNEL;;ROLE_ADMIN_FONCTIONNEL;Administrateur fonctionnel
