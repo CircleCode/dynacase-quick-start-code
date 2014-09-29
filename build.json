@@ -1,0 +1,10 @@
+{
+    "moduleName" : "cogip-audit",
+    "version" : "1.0.0",
+    "release" : "0",
+    "application" : ["COGIP_AUDIT"],
+    "includedPath" : ["locale","EXTERNALS","STYLE", "Images"],
+    "lang" : ["fr","en"],
+    "toolsPath" : { "getttext" : ""},
+    "csvParam" : {"enclosure" : "", "delimiter": ";"}
+}
