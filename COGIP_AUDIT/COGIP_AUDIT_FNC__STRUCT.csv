@@ -1,0 +1,21 @@
+//;Father ;Title;Id;Classe;Logical Name;;;;;;;;;;;
+BEGIN;COGIP_AUDIT_BASE;;;;COGIP_AUDIT_FNC;;;;;;;;;;;
+CLASS;COGIP\COGIP_AUDIT_FNC;;;;;;;;;;;;;;;
+//;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
+ATTR;caf_f_descriptif;;Descriptif;N;N;frame;100;W;;;;;;;;
+ATTR;caf_titre;caf_f_descriptif;Titre;N;N;text;110;W;;;;;;;;
+ATTR;caf_audit;caf_f_descriptif;Audit;N;N;docid("COGIP_AUDIT_AUDIT");120;W;Y;;;;;;;
+ATTR;caf_redacteur;caf_f_descriptif;Rédacteur;N;N;account;130;S;;;;;;;;
+ATTR;caf_t_ecart;;Écarts;N;N;tab;1000;W;;;;;;;;
+ATTR;caf_f_ecart;caf_t_ecart;Écarts;N;N;frame;1100;W;;;;;;;;
+ATTR;caf_a_ecart;caf_f_ecart;Écarts;N;N;array;1110;W;;;;;;;;
+ATTR;caf_ecart_ref;caf_a_ecart;Référentiel;N;N;docid("COGIP_AUDIT_REFERENTIEL");1120;W;;;;;;;;
+ATTR;caf_ecart_chapitre;caf_a_ecart;Chapitre;N;N;docid("COGIP_AUDIT_CHAPITRE");1130;W;;;;;;;;
+ATTR;caf_ecart_ecart;caf_a_ecart;Ecart;N;N;longtext;1140;W;;;;;;;;
+ATTR;caf_t_action;;Actions;N;N;tab;2000;W;;;;;;;;
+ATTR;caf_f_action;caf_t_action;Actions;N;N;frame;2100;W;;;;;;;;
+ATTR;caf_a_action;caf_f_action;Actions;N;N;array;2110;W;;;;;;;;
+ATTR;caf_action_desc;caf_a_action;Descriptif;N;N;longtext;2120;W;;;;;;;;
+ATTR;caf_action_resp;caf_a_action;Responsable;N;N;text;2130;W;;;;;;;;
+ATTR;caf_action_date;caf_a_action;Date de prise en compte;N;N;date;2140;W;;;;;;;;
+END;;;;;;;;;;;;;;;;

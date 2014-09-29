@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: COGIP_AUDIT_CHAPITRE_en\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain;  charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: COGIP_AUDIT/COGIP_AUDIT_CHAPITRE__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_CHAPITRE#cac_content"
+msgstr "Contenu"
+
+#: COGIP_AUDIT/COGIP_AUDIT_CHAPITRE__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_CHAPITRE#cac_f_desc"
+msgstr "Descriptif"
+
+#: COGIP_AUDIT/COGIP_AUDIT_CHAPITRE__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_CHAPITRE#cac_ref"
+msgstr "Référentiel"
+
+#: COGIP_AUDIT/COGIP_AUDIT_CHAPITRE__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_CHAPITRE#cac_titre"
+msgstr "Titre"
+
+#, fuzzy
+msgid "COGIP_AUDIT_CHAPITRE#title"
+msgstr ""
+"#-#-#-#-#  COGIP_AUDIT_CHAPITRE.pot (COGIP_AUDIT_CHAPITRE )  #-#-#-#-#\n"
+"Chapitre\n"
+"#-#-#-#-#  COGIP_AUDIT_CHAPITRE.pot (COGIP_AUDIT_CHAPITRE )  #-#-#-#-#\n"

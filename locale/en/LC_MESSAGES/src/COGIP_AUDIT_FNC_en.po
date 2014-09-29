@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: COGIP_AUDIT_FNC_en\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain;  charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_a_action"
+msgstr "Actions"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_a_ecart"
+msgstr "Écarts"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_action_date"
+msgstr "Date de prise en compte"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_action_desc"
+msgstr "Descriptif"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_action_resp"
+msgstr "Responsable"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_audit"
+msgstr "Audit"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_ecart_chapitre"
+msgstr "Chapitre"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_ecart_ecart"
+msgstr "Ecart"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_ecart_ref"
+msgstr "Référentiel"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_f_action"
+msgstr "Actions"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_f_descriptif"
+msgstr "Descriptif"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_f_ecart"
+msgstr "Écarts"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_redacteur"
+msgstr "Rédacteur"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_t_action"
+msgstr "Actions"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_t_ecart"
+msgstr "Écarts"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#caf_titre"
+msgstr "Titre"
+
+#, fuzzy
+msgid "COGIP_AUDIT_FNC#title"
+msgstr ""
+"#-#-#-#-#  COGIP_AUDIT_FNC.pot (COGIP_AUDIT_FNC )  #-#-#-#-#\n"
+"Fiche de non conformité\n"
+"#-#-#-#-#  COGIP_AUDIT_FNC.pot (COGIP_AUDIT_FNC )  #-#-#-#-#\n"

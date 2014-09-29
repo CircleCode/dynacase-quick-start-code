@@ -1,0 +1,9 @@
+//FAM;dossier(DIR);<specid>;<fldid>;titre;
+ORDER;DIR;;;ba_title;
+DOC;DIR;DIR_COGIP_AUDIT_REFERENTIEL;;DIR_COGIP_AUDIT_REFERENTIEL;
+;;;;;
+//;Father;Title;Id;Classe;Logical Name;
+BEGIN;;Référentiel Qualité;;;COGIP_AUDIT_REFERENTIEL;
+ICON;cogip_audit_referentiel.png;;;;
+DFLDID;DIR_COGIP_AUDIT_REFERENTIEL;;;;
+END;;;;;

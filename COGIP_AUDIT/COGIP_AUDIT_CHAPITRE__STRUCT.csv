@@ -1,0 +1,9 @@
+//;Father ;Title;Id;Classe;Logical Name;;;;;;;;;;;
+BEGIN;COGIP_AUDIT_BASE;;;;COGIP_AUDIT_CHAPITRE;;;;;;;;;;;
+CLASS;COGIP\COGIP_AUDIT_CHAPITRE;;;;;;;;;;;;;;;
+//;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
+ATTR;cac_f_desc;;Descriptif;N;N;frame;100;W;;;;;;;;
+ATTR;cac_titre;cac_f_desc;Titre;N;N;text;110;W;;;;;;;;
+ATTR;cac_ref;cac_f_desc;Référentiel;N;N;docid("COGIP_AUDIT_REFERENTIEL");120;W;;;;;;;;
+ATTR;cac_content;cac_f_desc;Contenu;N;N;htmltext;130;W;;;;;;;;
+END;;;;;;;;;;;;;;;;
