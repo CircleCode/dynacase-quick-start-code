@@ -1,7 +1,7 @@
 //FAM;utilisateur(IUSER);<specid>;<fldid>;Nom;Prénom;Mail principal;Login;Nouveau mot de passe;Confirmation mot de passe;
 ORDER;IUSER;;;us_lname;us_fname;us_extmail;us_login;us_passwd1;us_passwd2;us_roles
-DOC;IUSER;USER_JEAN_MARTIN;;Martin;Jean;martin.jean@quickstartcogip.com;martin.jean;p@ssw0rd;p@ssw0rd;
-DOC;IUSER;USER_PRISCILLA_ARTHAUD;;Arthaud;Priscilla;arthaud.priscilla@quickstartcogip.com;arthaud.priscilla;p@ssw0rd;p@ssw0rd;
-DOC;IUSER;USER_ARNAUD_LUC;;Arnaud;Luc;arnaud.luc@quickstartcogip.com;arnaud.luc;p@ssw0rd;p@ssw0rd;
-DOC;IUSER;USER_KARINE_MARTHE;;Marthe;Karine;marthe.karine@quickstartcogip.com;marthe.karine;p@ssw0rd;p@ssw0rd;
-DOC;IUSER;USER_MARINA_ARNIC;;Arnic;Marina;arnic.marina@quickstartcogip.comarnic.marina;arnic.marina;p@ssw0rd;p@ssw0rd;
+DOC;IUSER;USER_JEAN_MARTIN;GRP_QUALITE_COGIP;Martin;Jean;martin.jean@quickstartcogip.com;martin.jean;p@ssw0rd;p@ssw0rd;
+DOC;IUSER;USER_PRISCILLA_ARTHAUD;GRP_QUALITE_COGIP;Arthaud;Priscilla;arthaud.priscilla@quickstartcogip.com;arthaud.priscilla;p@ssw0rd;p@ssw0rd;
+DOC;IUSER;USER_ARNAUD_LUC;GRP_QUALITE_COGIP;Arnaud;Luc;arnaud.luc@quickstartcogip.com;arnaud.luc;p@ssw0rd;p@ssw0rd;
+DOC;IUSER;USER_KARINE_MARTHE;GRP_QUALITE_COGIP;Marthe;Karine;marthe.karine@quickstartcogip.com;marthe.karine;p@ssw0rd;p@ssw0rd;
+DOC;IUSER;USER_MARINA_ARNIC;GRP_DSI_COGIP;Arnic;Marina;arnic.marina@quickstartcogip.comarnic.marina;arnic.marina;p@ssw0rd;p@ssw0rd;
