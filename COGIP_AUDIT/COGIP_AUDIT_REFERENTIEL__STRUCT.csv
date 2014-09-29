@@ -1,0 +1,7 @@
+//;Father ;Title;Id;Classe;Logical Name;;;;;;;;;;;
+BEGIN;COGIP_AUDIT_BASE;;;;COGIP_AUDIT_REFERENTIEL;;;;;;;;;;;
+CLASS;COGIP\COGIP_AUDIT_REFERENTIEL;;;;;;;;;;;;;;;
+//;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
+ATTR;car_f_desc;;Description;N;N;frame;100;W;;;;;;;;
+ATTR;car_titre;car_f_desc;Titre;Y;N;text;110;W;;;;;;;;
+END;;;;;;;;;;;;;;;;

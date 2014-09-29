@@ -1,0 +1,9 @@
+//FAM;dossier(DIR);<specid>;<fldid>;titre;
+ORDER;DIR;;;ba_title;
+DOC;DIR;DIR_COGIP_AUDIT_BASE;;DIR_COGIP_AUDIT_BASE;
+;;;;;
+//;Father;Title;Id;Classe;Logical Name;
+BEGIN;;COGIP_AUDIT_BASE;;;COGIP_AUDIT_BASE;
+ICON;cogip_audit_base.png;;;;
+DFLDID;DIR_COGIP_AUDIT_BASE;;;;
+END;;;;;

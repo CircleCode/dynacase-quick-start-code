@@ -1,0 +1,9 @@
+//FAM;dossier(DIR);<specid>;<fldid>;titre;
+ORDER;DIR;;;ba_title;
+DOC;DIR;DIR_COGIP_AUDIT_FNC;;DIR_COGIP_AUDIT_FNC;
+;;;;;
+//;Father;Title;Id;Classe;Logical Name;
+BEGIN;;Fiche de non conformité;;;COGIP_AUDIT_FNC;
+ICON;cogip_audit_fnc.png;;;;
+DFLDID;DIR_COGIP_AUDIT_FNC;;;;
+END;;;;;
