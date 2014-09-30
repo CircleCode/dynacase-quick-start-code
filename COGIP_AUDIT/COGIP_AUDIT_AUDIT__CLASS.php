@@ -7,6 +7,36 @@ use \Dcp\AttributeIdentifiers\COGIP_AUDIT_AUDIT as MyAttributes;
 Class COGIP_AUDIT_AUDIT extends \Dcp\Family\COGIP_AUDIT_BASE {
 
     /**
+     * Hook executed after the refresh
+     *
+     * @return string
+     */
+    public function postRefresh()
+    {
+        $err = parent::postRefresh();
+        $err .= $this->checkEndDate();
+        return $err;
+    }
+
+    public function postStore()
+    {
+        $err = parent::postStore();
+        $err .= $this->computeFNC();
+        if ($err) {
+            error_log(__FILE__ . ":" . __LINE__ . ":" . __METHOD__ . " " . $err . "\n");
+        }
+    }
+
+    public function postDuplicate(&$copyFrom)
+    {
+        $err = parent::postDuplicate($copyFrom);
+        $err .= $this->cleanDate();
+        if ($err) {
+            error_log(__FILE__ . ":" . __LINE__ . ":" . __METHOD__ . " " . $err . "\n");
+        }
+    }
+
+    /**
      * Compute the title of the audit family
      *
      * @return string
@@ -36,6 +66,21 @@ Class COGIP_AUDIT_AUDIT extends \Dcp\Family\COGIP_AUDIT_BASE {
     }
 
     /**
+     * Check if the end date is in the past
+     *
+     * @return string
+     */
+    public function checkEndDate()
+    {
+        $err = "";
+        $date = $this->getAttributeValue(MyAttributes::caa_date_fin);
+        if (!empty($date) && $this->getAttributeValue(MyAttributes::caa_date_fin) < new \DateTime()) {
+            $err = ___("The end date of the audit is in the past", "COGIP_AUDIT:AUDIT");
+        }
+        return $err;
+    }
+
+    /**
      * Compute end date
      *
      * @param string $dateDebut iso
@@ -52,6 +97,48 @@ Class COGIP_AUDIT_AUDIT extends \Dcp\Family\COGIP_AUDIT_BASE {
         }
         return " ";
     }
+
+    /**
+     * Compute the FNC attributes content
+     *
+     * @return string
+     */
+    public function computeFNC()
+    {
+        $err = "";
+        $fncs = array();
+        $search = new \SearchDoc('', 'COGIP_AUDIT_FNC');
+        $search->setObjectReturn();
+        $search->addFilter("%s = '%d'",
+            \Dcp\AttributeIdentifiers\COGIP_AUDIT_FNC::caf_audit,
+            $this->getPropertyValue("initid")
+        );
+        foreach ($search->getDocumentList() as $currentFNC) {
+            /* @var \Dcp\Family\COGIP_AUDIT_FNC $currentFNC */
+            $fncs[] = $currentFNC->getPropertyValue("initid");
+        }
+        $err .= $this->setValue(MyAttributes::caa_fnc_fnc, $fncs);
+        if ($err) {
+            $err = __FILE__ . ":" . __LINE__ . ":" . __METHOD__ . " " . $err . "\n";
+        }
+        return $err;
+    }
+
+    /**
+     * Clean constat date
+     *
+     * @return string
+     */
+    public function cleanDate()
+    {
+        $err = "";
+        $err .= $this->clearValue(MyAttributes::caa_date_debut);
+        $err .= $this->clearValue(MyAttributes::caa_date_fin);
+        $err .= $this->clearValue(MyAttributes::caa_duree);
+        if ($err) {
+            $err = __FILE__ . ":" . __LINE__ . ":" . __METHOD__ . " " . $err . "\n";
+        }
+        return $err;
     }
 
 }
