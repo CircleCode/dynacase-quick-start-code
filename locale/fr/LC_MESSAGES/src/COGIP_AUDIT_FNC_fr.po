@@ -90,9 +90,5 @@ msgstr "Écarts"
 msgid "COGIP_AUDIT_FNC#caf_titre"
 msgstr "Titre"
 
-#, fuzzy
 msgid "COGIP_AUDIT_FNC#title"
-msgstr ""
-"#-#-#-#-#  COGIP_AUDIT_FNC.pot (COGIP_AUDIT_FNC )  #-#-#-#-#\n"
-"Fiche de non conformité\n"
-"#-#-#-#-#  COGIP_AUDIT_FNC.pot (COGIP_AUDIT_FNC )  #-#-#-#-#\n"
+msgstr "Fiche de non conformité"

@@ -1,9 +1,12 @@
-//FAM;dossier(DIR);<specid>;<fldid>;titre;
-ORDER;DIR;;;ba_title;
-DOC;DIR;DIR_COGIP_AUDIT_AUDIT;;DIR_COGIP_AUDIT_AUDIT;
-;;;;;
-//;Father;Title;Id;Classe;Logical Name;
-BEGIN;;Audit;;;COGIP_AUDIT_AUDIT;
-ICON;cogip_audit_audit.png;;;;
-DFLDID;DIR_COGIP_AUDIT_AUDIT;;;;
-END;;;;;
+//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;
+ORDER;DIR;;;ba_title;;;;
+DOC;DIR;DIR_COGIP_AUDIT_AUDIT;;DIR_COGIP_AUDIT_AUDIT;;;;
+;;;;;;;;
+//;Father;Title;Id;Classe;Logical Name;;;
+BEGIN;;Audit;;;COGIP_AUDIT_AUDIT;;;
+ICON;cogip_audit_audit.png;;;;;;;
+DFLDID;DIR_COGIP_AUDIT_AUDIT;;;;;;;
+PARAM;caa_p_f_wrapper;;Paramètres;;;frame;100;W
+PARAM;caa_p_title_prefix;caa_p_f_wrapper;Préfixe;;;text;110;W
+INITIAL;caa_p_title_prefix;AU;;;;;;
+END;;;;;;;;

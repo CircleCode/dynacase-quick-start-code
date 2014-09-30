@@ -85,6 +85,16 @@ msgstr "Pièces jointes"
 msgid "COGIP_AUDIT_AUDIT#caa_fnc_fnc"
 msgstr "Fiche de non conformités"
 
+#: COGIP_AUDIT/COGIP_AUDIT_AUDIT__PARAM.csv
+#, fuzzy
+msgid "COGIP_AUDIT_AUDIT#caa_p_f_wrapper"
+msgstr "Paramètres"
+
+#: COGIP_AUDIT/COGIP_AUDIT_AUDIT__PARAM.csv
+#, fuzzy
+msgid "COGIP_AUDIT_AUDIT#caa_p_title_prefix"
+msgstr "Préfixe"
+
 #: COGIP_AUDIT/COGIP_AUDIT_AUDIT__STRUCT.csv
 #, fuzzy
 msgid "COGIP_AUDIT_AUDIT#caa_pj"
@@ -130,9 +140,5 @@ msgstr "Pièces jointes"
 msgid "COGIP_AUDIT_AUDIT#caa_titre"
 msgstr "Titre"
 
-#, fuzzy
 msgid "COGIP_AUDIT_AUDIT#title"
-msgstr ""
-"#-#-#-#-#  COGIP_AUDIT_AUDIT.pot (COGIP_AUDIT_AUDIT )  #-#-#-#-#\n"
-"Audit\n"
-"#-#-#-#-#  COGIP_AUDIT_AUDIT.pot (COGIP_AUDIT_AUDIT )  #-#-#-#-#\n"
+msgstr "Audit"

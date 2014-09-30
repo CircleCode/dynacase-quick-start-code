@@ -3,10 +3,10 @@ BEGIN;COGIP_AUDIT_BASE;;;;COGIP_AUDIT_AUDIT;;;;;;;;;;;
 CLASS;COGIP\COGIP_AUDIT_AUDIT;;;;;;;;;;;;;;;
 //;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
 ATTR;caa_f_desc;;Descriptif;N;N;frame;100;W;;;;;;;;
-ATTR;caa_titre;caa_f_desc;Titre;N;N;text;110;W;;;;;;;;
-ATTR;caa_date_debut;caa_f_desc;Date de début;N;N;date;120;W;;;;;;;;
+ATTR;caa_titre;caa_f_desc;Titre;N;N;text;110;W;Y;;;;;;;
+ATTR;caa_date_debut;caa_f_desc;Date de début;N;N;date;120;W;;;;;;::checkBeginningDate(caa_date_debut);;
 ATTR;caa_duree;caa_f_desc;Durée;N;N;int;130;W;;;;;;;;
-ATTR;caa_date_fin;caa_f_desc;Date de fin;N;N;date;140;S;;;;;;;;
+ATTR;caa_date_fin;caa_f_desc;Date de fin;N;N;date;140;S;;;;::computeDateFin(caa_date_debut,caa_duree);;;;
 ATTR;caa_site;caa_f_desc;Site audité;N;N;account;150;W;;;;;;;;
 ATTR;caa_ref;caa_f_desc;Référentiel;N;N;docid("COGIP_AUDIT_REFERENTIEL");160;W;;;;;;;multiple=yes;
 ATTR;caa_desc;caa_f_desc;Descriptif;N;N;longtext;170;W;;;;;;;;
