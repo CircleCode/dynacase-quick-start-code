@@ -1,10 +1,26 @@
-//FAM;dossier(DIR);<specid>;<fldid>;titre;
-ORDER;DIR;;;ba_title;
-DOC;DIR;DIR_COGIP_AUDIT_FNC;;DIR_COGIP_AUDIT_FNC;
-;;;;;
-//;Father;Title;Id;Classe;Logical Name
-BEGIN;;Fiche de non conformité;;;COGIP_AUDIT_FNC
-ICON;cogip_audit_fnc.png;;;;
-DFLDID;DIR_COGIP_AUDIT_FNC;;;;
-DEFAULT;caf_redacteur;::getUserId();;;
-END;;;;;
+//FAM;masque de saisie(MASK);<specid>;<fldid>;titre;Famille;Famille (titre);attrid;visibilité;obligatoire;;;;;;;;;;;
+ORDER;MASK;;;ba_title;msk_famid;msk_fam;msk_attrids;msk_visibilities;msk_needeeds;;;;;;;;;;;
+DOC;MASK;MASK_FNC_DEFAULT;;Édition standard;COGIP_AUDIT_FNC;Fiche de non conformité;caf_f_descriptif\ncaf_t_ecart\ncaf_f_ecart\ncaf_a_ecart\ncaf_t_action\ncaf_f_action\ncaf_a_action;-\nS\n-\nU\n-\n-\n-;\n\n\n\n\n\n;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+//FAM;Contrôle de vues(CVDOC);<specid>;<fldid>;titre;description;family id;famille;Identifiant de la vue;Label;Type;Zone (Layout);Masque;Masque(titre);Ordre de sélection;Affichable;Menu;id création vues par défaut;création vue;Famille pour le profil;Famille pour le profil (titre)
+ORDER;CVDOC;;;ba_title;cv_desc;cv_famid;cv_fam;cv_idview;cv_lview;cv_kview;cv_zview;cv_mskid;cv_msk;cv_order;cv_displayed;cv_menu;cv_idcview;cv_lcview;dpdoc_famid;dpdoc_fam
+DOC;CVDOC;CVDOC_FNC;;Fiche de non conformité;;COGIP_AUDIT_FNC;Fiche de non conformité;modif_default\nmodif_auditeur;Modification\nModification;VEDIT\nVEDIT;\n;MASK_FNC_DEFAULT\n;Édition standard Fiche de non conformité\n;110\n100;no\nno;\n;;;COGIP_AUDIT_FNC;Fiche de non conformité
+PROFIL;CVDOC_FNC;:useAccount;;view=core_administrator;edit=core_administrator;viewacl=core_administrator;modifyacl=core_administrator;modif_auditeur=role_auditeur;modif_default=role_utilisateurs_cogip;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;;;;;;;;;;;;
+ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;;;;;;;;;;;;
+DOC;PFAM;PFAM_FNC;;Profil de FNC;;;;;;;;;;;;;;;;
+PROFIL;PFAM_FNC;:useAccount;;create=role_responsable_audit;icreate=role_responsable_audit;view=role_admin_fonc;edit=role_admin_fonc;viewacl=role_admin_fonc;modifyacl=role_admin_fonc;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;;;;;;;;;;;;
+ORDER;DIR;;;ba_title;;;;;;;;;;;;;;;;
+DOC;DIR;DIR_COGIP_AUDIT_FNC;;DIR_COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+//;Father;Title;Id;Classe;Logical Name;;;;;;;;;;;;;;;
+BEGIN;;Fiche de non conformité;;;COGIP_AUDIT_FNC;;;;;;;;;;;;;;;
+ICON;cogip_audit_fnc.png;;;;;;;;;;;;;;;;;;;
+DFLDID;DIR_COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;;;;
+DEFAULT;caf_redacteur;::getUserId();;;;;;;;;;;;;;;;;;
+PROFID;PFAM_FNC;;;;;;;;;;;;;;;;;;;
+CVID;CVDOC_FNC;;;;;;;;;;;;;;;;;;;
+END;;;;;;;;;;;;;;;;;;;;
