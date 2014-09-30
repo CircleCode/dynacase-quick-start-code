@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COGIP_AUDIT_fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 14:44+0200\n"
+"POT-Creation-Date: 2014-09-30 15:12+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -29,3 +29,39 @@ msgstr "Édition administrateur : Attention !!"
 
 msgid "coa:The date must be after today"
 msgstr "La date ne doit pas être inférieure à la date du jour"
+
+msgid "coa_e1"
+msgstr "Brouillon"
+
+msgid "coa_e2"
+msgstr "Annulé"
+
+msgid "coa_e3"
+msgstr "Planifié"
+
+msgid "coa_e4"
+msgstr "Certifié"
+
+msgid "coa_e5"
+msgstr "Refusé"
+
+msgid "coa_planning"
+msgstr "En planification"
+
+msgid "coa_t1"
+msgstr "Démarrer"
+
+msgid "coa_t2"
+msgstr "Annuler l'audit"
+
+msgid "coa_t3"
+msgstr "Renvoyer en planification"
+
+msgid "coa_t4"
+msgstr "Accorder la certification"
+
+msgid "coa_t5"
+msgstr "Refuser la certification"
+
+msgid "coa_writing"
+msgstr "En rédaction"

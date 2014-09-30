@@ -1,18 +1,24 @@
-//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;
-ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;
-DOC;PFAM;PFAM_AUDIT;;Profil d'audit;;;;;
-PROFIL;PFAM_AUDIT;;;view=ROLE_ADMIN_FONCTIONNEL;edit=ROLE_ADMIN_FONCTIONNEL;viewacl=ROLE_ADMIN_FONCTIONNEL;modifyacl=ROLE_ADMIN_FONCTIONNEL;create=ROLE_RESPONSABLE_AUDITS;icreate=ROLE_RESPONSABLE_AUDITS
-;;;;;;;;;
-//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;
-ORDER;DIR;;;ba_title;;;;;
-DOC;DIR;DIR_COGIP_AUDIT_AUDIT;;DIR_COGIP_AUDIT_AUDIT;;;;;
-;;;;;;;;;
-//;Father;Title;Id;Classe;Logical Name;;;;
-BEGIN;;Audit;;;COGIP_AUDIT_AUDIT;;;;
-ICON;cogip_audit_audit.png;;;;;;;;
-DFLDID;DIR_COGIP_AUDIT_AUDIT;;;;;;;;
-PARAM;caa_p_f_wrapper;;Paramètres;;;frame;100;W;
-PARAM;caa_p_title_prefix;caa_p_f_wrapper;Préfixe;;;text;110;W;
-INITIAL;caa_p_title_prefix;AU;;;;;;;
-PROFID;PFAM_AUDIT;;;;;;;;
-END;;;;;;;;;
+//FAM;COGIP_AUDIT_AUDIT__WFL(COGIP_AUDIT_AUDIT__WFL);<specid>;<fldid>;titre;description;famille;famille (titre);famille;famille (titre);Profil Brouillon;masque Brouillon;couleur Brouillon;contrôle de vue Brouillon;modèle de courriel Brouillon;minuteur Brouillon;accord Brouillon;activité Brouillon;Type d'affectation Brouillon;Utilisateur affecté Brouillon;auto-verrouillage Brouillon;courriel automatique Brouillon;Profil Planifié;masque Planifié;couleur Planifié;contrôle de vue Planifié;modèle de courriel Planifié;minuteur Planifié;accord Planifié;activité Planifié;Type d'affectation Planifié;Utilisateur affecté Planifié;auto-verrouillage Planifié;courriel automatique Planifié;Profil Annulé;masque Annulé;couleur Annulé;contrôle de vue Annulé;modèle de courriel Annulé;minuteur Annulé;accord Annulé;activité Annulé;Type d'affectation Annulé;Utilisateur affecté Annulé;auto-verrouillage Annulé;courriel automatique Annulé;Profil Certifié;masque Certifié;couleur Certifié;contrôle de vue Certifié;modèle de courriel Certifié;minuteur Certifié;accord Certifié;activité Certifié;Type d'affectation Certifié;Utilisateur affecté Certifié;auto-verrouillage Certifié;courriel automatique Certifié;Profil Refusé;masque Refusé;couleur Refusé;contrôle de vue Refusé;modèle de courriel Refusé;minuteur Refusé;accord Refusé;activité Refusé;Type d'affectation Refusé;Utilisateur affecté Refusé;auto-verrouillage Refusé;courriel automatique Refusé;modèle de courriel Démarrer;minuteur Démarrer;Minuteur persistent Démarrer;Minuteur à détacher Démarrer;modèle de courriel Annuler l'audit;minuteur Annuler l'audit;Minuteur persistent Annuler l'audit;Minuteur à détacher Annuler l'audit;modèle de courriel Renvoyer en planification;minuteur Renvoyer en planification;Minuteur persistent Renvoyer en planification;Minuteur à détacher Renvoyer en planification;modèle de courriel Accorder la certification;minuteur Accorder la certification;Minuteur persistent Accorder la certification;Minuteur à détacher Accorder la certification;modèle de courriel Refuser la certification;minuteur Refuser la certification;Minuteur persistent Refuser la certification;Minuteur à détacher Refuser la certification
+ORDER;COGIP_AUDIT_AUDIT__WFL;;;ba_title;wf_desc;wf_famid;wf_fam;dpdoc_famid;dpdoc_fam;caaw_idcoa_e1;caaw_mskidcoa_e1;caaw_colorcoa_e1;caaw_cvidcoa_e1;caaw_mtidcoa_e1;caaw_tmidcoa_e1;caaw_askidcoa_e1;caaw_activitylabelcoa_e1;caaw_affecttypecoa_e1;caaw_affectrefcoa_e1;caaw_affectlockcoa_e1;caaw_affectmailcoa_e1;caaw_idcoa_e3;caaw_mskidcoa_e3;caaw_colorcoa_e3;caaw_cvidcoa_e3;caaw_mtidcoa_e3;caaw_tmidcoa_e3;caaw_askidcoa_e3;caaw_activitylabelcoa_e3;caaw_affecttypecoa_e3;caaw_affectrefcoa_e3;caaw_affectlockcoa_e3;caaw_affectmailcoa_e3;caaw_idcoa_e2;caaw_mskidcoa_e2;caaw_colorcoa_e2;caaw_cvidcoa_e2;caaw_mtidcoa_e2;caaw_tmidcoa_e2;caaw_askidcoa_e2;caaw_activitylabelcoa_e2;caaw_affecttypecoa_e2;caaw_affectrefcoa_e2;caaw_affectlockcoa_e2;caaw_affectmailcoa_e2;caaw_idcoa_e4;caaw_mskidcoa_e4;caaw_colorcoa_e4;caaw_cvidcoa_e4;caaw_mtidcoa_e4;caaw_tmidcoa_e4;caaw_askidcoa_e4;caaw_activitylabelcoa_e4;caaw_affecttypecoa_e4;caaw_affectrefcoa_e4;caaw_affectlockcoa_e4;caaw_affectmailcoa_e4;caaw_idcoa_e5;caaw_mskidcoa_e5;caaw_colorcoa_e5;caaw_cvidcoa_e5;caaw_mtidcoa_e5;caaw_tmidcoa_e5;caaw_askidcoa_e5;caaw_activitylabelcoa_e5;caaw_affecttypecoa_e5;caaw_affectrefcoa_e5;caaw_affectlockcoa_e5;caaw_affectmailcoa_e5;caaw_trans_mtidcoa_t1;caaw_trans_tmidcoa_t1;caaw_trans_pa_tmidcoa_t1;caaw_trans_pu_tmidcoa_t1;caaw_trans_mtidcoa_t2;caaw_trans_tmidcoa_t2;caaw_trans_pa_tmidcoa_t2;caaw_trans_pu_tmidcoa_t2;caaw_trans_mtidcoa_t3;caaw_trans_tmidcoa_t3;caaw_trans_pa_tmidcoa_t3;caaw_trans_pu_tmidcoa_t3;caaw_trans_mtidcoa_t4;caaw_trans_tmidcoa_t4;caaw_trans_pa_tmidcoa_t4;caaw_trans_pu_tmidcoa_t4;caaw_trans_mtidcoa_t5;caaw_trans_tmidcoa_t5;caaw_trans_pa_tmidcoa_t5;caaw_trans_pu_tmidcoa_t5
+DOC;COGIP_AUDIT_AUDIT__WFL;WDOC_COGIP_AUDIT_AUDIT__WFL;;Audit;;COGIP_AUDIT_AUDIT;Audit;COGIP_AUDIT_AUDIT;Audit;;;;;;;;coa_planning;;;;;;;;;;;;coa_writing;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;PFAM;PFAM_AUDIT;;Profil d'audit;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROFIL;PFAM_AUDIT;;;view=ROLE_ADMIN_FONCTIONNEL;edit=ROLE_ADMIN_FONCTIONNEL;viewacl=ROLE_ADMIN_FONCTIONNEL;modifyacl=ROLE_ADMIN_FONCTIONNEL;create=ROLE_RESPONSABLE_AUDITS;icreate=ROLE_RESPONSABLE_AUDITS;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;DIR;;;ba_title;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;DIR;DIR_COGIP_AUDIT_AUDIT;;DIR_COGIP_AUDIT_AUDIT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//;Father;Title;Id;Classe;Logical Name;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BEGIN;;Audit;;;COGIP_AUDIT_AUDIT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ICON;cogip_audit_audit.png;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DFLDID;DIR_COGIP_AUDIT_AUDIT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PARAM;caa_p_f_wrapper;;Paramètres;;;frame;100;W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PARAM;caa_p_title_prefix;caa_p_f_wrapper;Préfixe;;;text;110;W;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+INITIAL;caa_p_title_prefix;AU;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROFID;PFAM_AUDIT;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+WID;WDOC_COGIP_AUDIT_AUDIT__WFL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+END;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

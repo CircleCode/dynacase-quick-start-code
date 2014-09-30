@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COGIP_AUDIT_en\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 14:44+0200\n"
+"POT-Creation-Date: 2014-09-30 15:12+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -26,4 +26,40 @@ msgid "coa:Admin edition : beware !"
 msgstr ""
 
 msgid "coa:The date must be after today"
+msgstr ""
+
+msgid "coa_e1"
+msgstr ""
+
+msgid "coa_e2"
+msgstr ""
+
+msgid "coa_e3"
+msgstr ""
+
+msgid "coa_e4"
+msgstr ""
+
+msgid "coa_e5"
+msgstr ""
+
+msgid "coa_planning"
+msgstr ""
+
+msgid "coa_t1"
+msgstr ""
+
+msgid "coa_t2"
+msgstr ""
+
+msgid "coa_t3"
+msgstr ""
+
+msgid "coa_t4"
+msgstr ""
+
+msgid "coa_t5"
+msgstr ""
+
+msgid "coa_writing"
 msgstr ""
