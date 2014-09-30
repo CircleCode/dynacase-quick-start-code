@@ -1,12 +1,18 @@
-//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;
-ORDER;DIR;;;ba_title;;;;
-DOC;DIR;DIR_COGIP_AUDIT_AUDIT;;DIR_COGIP_AUDIT_AUDIT;;;;
-;;;;;;;;
-//;Father;Title;Id;Classe;Logical Name;;;
-BEGIN;;Audit;;;COGIP_AUDIT_AUDIT;;;
-ICON;cogip_audit_audit.png;;;;;;;
-DFLDID;DIR_COGIP_AUDIT_AUDIT;;;;;;;
-PARAM;caa_p_f_wrapper;;Paramètres;;;frame;100;W
-PARAM;caa_p_title_prefix;caa_p_f_wrapper;Préfixe;;;text;110;W
-INITIAL;caa_p_title_prefix;AU;;;;;;
-END;;;;;;;;
+//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;
+ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;
+DOC;PFAM;PFAM_AUDIT;;Profil d'audit;;;;;
+PROFIL;PFAM_AUDIT;;;view=ROLE_ADMIN_FONCTIONNEL;edit=ROLE_ADMIN_FONCTIONNEL;viewacl=ROLE_ADMIN_FONCTIONNEL;modifyacl=ROLE_ADMIN_FONCTIONNEL;create=ROLE_RESPONSABLE_AUDITS;icreate=ROLE_RESPONSABLE_AUDITS
+;;;;;;;;;
+//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;
+ORDER;DIR;;;ba_title;;;;;
+DOC;DIR;DIR_COGIP_AUDIT_AUDIT;;DIR_COGIP_AUDIT_AUDIT;;;;;
+;;;;;;;;;
+//;Father;Title;Id;Classe;Logical Name;;;;
+BEGIN;;Audit;;;COGIP_AUDIT_AUDIT;;;;
+ICON;cogip_audit_audit.png;;;;;;;;
+DFLDID;DIR_COGIP_AUDIT_AUDIT;;;;;;;;
+PARAM;caa_p_f_wrapper;;Paramètres;;;frame;100;W;
+PARAM;caa_p_title_prefix;caa_p_f_wrapper;Préfixe;;;text;110;W;
+INITIAL;caa_p_title_prefix;AU;;;;;;;
+PROFID;PFAM_AUDIT;;;;;;;;
+END;;;;;;;;;

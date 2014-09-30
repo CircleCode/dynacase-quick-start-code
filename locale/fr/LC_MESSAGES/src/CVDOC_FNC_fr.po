@@ -1,0 +1,21 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CVDOC_FNC_fr\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain;  charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__PARAM.csv
+#, fuzzy
+msgid "CVDOC_FNC#label#modif_auditeur"
+msgstr "Modification"
+
+#: COGIP_AUDIT/COGIP_AUDIT_FNC__PARAM.csv
+#, fuzzy
+msgid "CVDOC_FNC#label#modif_default"
+msgstr "Modification"
