@@ -7,5 +7,7 @@ namespace Dcp\Family {
 namespace Dcp\AttributeIdentifiers {
 	/**   */
 	class Cogip_audit_base {
+		/** [menu] Édition totale (réservé admin) */
+		const cab_menu_admin_edit='cab_menu_admin_edit';
 	}
 }

@@ -46,7 +46,10 @@ class COGIP_AUDIT_AUDIT__WFL extends \Dcp\Family\WDoc
 
     public $transitions = array(
         self::t_brouillon__redaction => array("nr" => true),
-        self::t_brouillon__annule => array("nr" => true),
+        self::t_brouillon__annule => array("nr" => true,
+            "ask" => array("caaw_raison"),
+            "m2" => "handleRaison"
+        ),
         self::t_redaction__brouillon => array("nr" => true),
         self::t_redaction__certif => array("nr" => true, "m0" => "checkAssociatedFNC"),
         self::t_redaction__refus_certif => array("nr" => true, "m0" => "checkAssociatedFNC"),
@@ -73,4 +76,10 @@ class COGIP_AUDIT_AUDIT__WFL extends \Dcp\Family\WDoc
         }
         return "";
     }
+
+    public function handleRaison()
+    {
+        $this->doc->addHistoryEntry($this->getRawValue("caaw_raison"));
+    }
+
 }

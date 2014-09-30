@@ -74,7 +74,9 @@ Class COGIP_AUDIT_AUDIT extends \Dcp\Family\COGIP_AUDIT_BASE {
     {
         $err = "";
         $date = $this->getAttributeValue(MyAttributes::caa_date_fin);
-        if (!empty($date) && $this->getAttributeValue(MyAttributes::caa_date_fin) < new \DateTime()) {
+        if (!empty($date)
+            && $this->getPropertyValue("state") === COGIP_AUDIT_AUDIT__WFL::e_brouillon
+            && $this->getAttributeValue(MyAttributes::caa_date_fin) < new \DateTime()) {
             $err = ___("The end date of the audit is in the past", "COGIP_AUDIT:AUDIT");
         }
         return $err;

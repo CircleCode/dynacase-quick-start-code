@@ -1,7 +1,9 @@
-//;fromid;title;special id;classname;name;
-BEGIN;WDOC;COGIP_AUDIT_AUDIT__WFL;;--;COGIP_AUDIT_AUDIT__WFL;
-USEFOR;SW;
-CLASS;COGIP\COGIP_AUDIT_AUDIT__WFL;
-//;idattr;idframe;label;T;A;type;ord;vis;needed;link;phpfile;phpfunc;elink;constraint;option;
-
-END;
+//;fromid;title;special id;classname;name;;;;;;;;;;
+BEGIN;WDOC;COGIP_AUDIT_AUDIT__WFL;;--;COGIP_AUDIT_AUDIT__WFL;;;;;;;;;;
+USEFOR;SW;;;;;;;;;;;;;;
+CLASS;COGIP\COGIP_AUDIT_AUDIT__WFL;;;;;;;;;;;;;;
+//;idattr;idframe;label;T;A;type;ord;vis;needed;link;phpfile;phpfunc;elink;constraint;option
+PARAM;caaw_f_ask;;Ask;N;N;frame;100;W;;;;;;;
+PARAM;caaw_raison;caaw_f_ask;Raison;N;N;longtext;110;W;;;;;;;editheight=4em
+;;;;;;;;;;;;;;;
+END;;;;;;;;;;;;;;;
