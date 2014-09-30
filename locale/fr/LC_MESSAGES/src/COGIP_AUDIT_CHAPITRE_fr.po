@@ -30,9 +30,5 @@ msgstr "Référentiel"
 msgid "COGIP_AUDIT_CHAPITRE#cac_titre"
 msgstr "Titre"
 
-#, fuzzy
 msgid "COGIP_AUDIT_CHAPITRE#title"
-msgstr ""
-"#-#-#-#-#  COGIP_AUDIT_CHAPITRE.pot (COGIP_AUDIT_CHAPITRE )  #-#-#-#-#\n"
-"Chapitre\n"
-"#-#-#-#-#  COGIP_AUDIT_CHAPITRE.pot (COGIP_AUDIT_CHAPITRE )  #-#-#-#-#\n"
+msgstr "Chapitre"

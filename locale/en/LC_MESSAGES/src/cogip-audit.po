@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: COGIP_AUDIT_en\n"
+"Project-Id-Version: cogip-audit\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-29 20:01+0200\n"
 "Last-Translator: Automatically generated\n"
@@ -11,8 +11,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-msgid "COGIP_AUDIT:COGIP_AUDIT"
+msgid "coa:You need to select a referentiel"
 msgstr ""
 
-msgid "coa:The date must be after today"
+msgid "coa:You need to select an audit before"
 msgstr ""

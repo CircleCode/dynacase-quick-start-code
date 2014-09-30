@@ -3,7 +3,7 @@ BEGIN;COGIP_AUDIT_BASE;;;;COGIP_AUDIT_FNC;;;;;;;;;;;
 CLASS;COGIP\COGIP_AUDIT_FNC;;;;;;;;;;;;;;;
 //;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
 ATTR;caf_f_descriptif;;Descriptif;N;N;frame;100;W;;;;;;;;
-ATTR;caf_titre;caf_f_descriptif;Titre;N;N;text;110;W;;;;;;;;
+ATTR;caf_titre;caf_f_descriptif;Titre;N;N;text;110;W;Y;;;;;;;
 ATTR;caf_audit;caf_f_descriptif;Audit;N;N;docid("COGIP_AUDIT_AUDIT");120;W;Y;;;;;;;
 ATTR;caf_redacteur;caf_f_descriptif;Rédacteur;N;N;account;130;S;;;;;;;;
 ATTR;caf_t_ecart;;Écarts;N;N;tab;1000;W;;;;;;;;

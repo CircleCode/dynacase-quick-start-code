@@ -20,11 +20,5 @@ msgstr "Description"
 msgid "COGIP_AUDIT_REFERENTIEL#car_titre"
 msgstr "Titre"
 
-#, fuzzy
 msgid "COGIP_AUDIT_REFERENTIEL#title"
-msgstr ""
-"#-#-#-#-#  COGIP_AUDIT_REFERENTIEL.pot (COGIP_AUDIT_REFERENTIEL )  #-#-#-#-"
-"#\n"
-"Référentiel Qualité\n"
-"#-#-#-#-#  COGIP_AUDIT_REFERENTIEL.pot (COGIP_AUDIT_REFERENTIEL )  #-#-#-#-"
-"#\n"
+msgstr "Référentiel Qualité"
