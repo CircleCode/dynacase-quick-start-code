@@ -1,0 +1,34 @@
+.document input[visibility="S"],
+.document input[visibility="S"]:hover,
+.document textarea[visibility="S"],
+input[visibility="S"],
+input[visibility="S"]:hover,
+textarea[visibility="S"],
+div.static {
+    color: black;
+    background: white;
+    border: none;
+    border-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+}
+
+select[visibility="S"] {
+    border: none;
+    color: black;
+    background: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input[disabled="disabled"],
+input[disabled] {
+    cursor: auto;
+}
+
+.document input[visibility="S"], .document input[visibility="S"]:hover {
+    background-color: white;
+    background-image: none;
+    padding: 3px;
+}
