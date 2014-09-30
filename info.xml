@@ -28,6 +28,8 @@
         <process
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_AUDIT__STRUCT.csv --csv-separator=&apos;;&apos; '/>
         <process
+                command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_AUDIT__WFL.csv --csv-separator=&apos;;&apos; '/>
+        <process
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_AUDIT__PARAM.csv --csv-separator=&apos;;&apos; '/>
         <process
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_FNC__STRUCT.csv --csv-separator=&apos;;&apos; '/>
@@ -54,6 +56,8 @@
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_CHAPITRE__PARAM.csv --csv-separator=&apos;;&apos; '/>
         <process
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_AUDIT__STRUCT.csv --csv-separator=&apos;;&apos; '/>
+        <process
+                command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_AUDIT__WFL.csv --csv-separator=&apos;;&apos; '/>
         <process
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_AUDIT__PARAM.csv --csv-separator=&apos;;&apos; '/>
         <process
