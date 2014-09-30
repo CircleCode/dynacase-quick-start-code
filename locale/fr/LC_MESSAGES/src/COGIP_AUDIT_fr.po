@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COGIP_AUDIT_fr\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 17:06+0200\n"
+"POT-Creation-Date: 2014-09-30 17:37+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: fr\n"
@@ -27,11 +27,50 @@ msgstr ""
 msgid "coa:Admin edition : beware !"
 msgstr "Édition administrateur : Attention !!"
 
+msgid "coa:All"
+msgstr "Tous"
+
+msgid "coa:Closed"
+msgstr "Fermé"
+
+msgid "coa:Create audit"
+msgstr "Créer un audit"
+
+msgid "coa:In progress"
+msgstr "En cours"
+
+msgid "coa:Select an audit"
+msgstr "Sélectionnez un audit"
+
+msgid "coa:State"
+msgstr "État"
+
 msgid "coa:The date must be after today"
 msgstr "La date ne doit pas être inférieure à la date du jour"
 
 msgid "coa:You have to close all FNC before change state"
 msgstr "Vous devez clore toutes les FNC avant de changer d'état"
+
+msgid "coa:audits"
+msgstr "Audits"
+
+msgid "coa:basic access"
+msgstr "Accès basique"
+
+msgid "coa:disconnect"
+msgstr "Se déconnecter"
+
+msgid "coa:document list"
+msgstr "List des documents"
+
+msgid "coa:main interface"
+msgstr "Interface principale"
+
+msgid "coa:search"
+msgstr "Recherche"
+
+msgid "coa:titre"
+msgstr "Titre"
 
 msgid "coa_e1"
 msgstr "Brouillon"

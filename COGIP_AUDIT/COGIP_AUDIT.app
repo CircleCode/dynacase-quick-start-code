@@ -9,25 +9,32 @@ $app_desc = array(
     "childof" => ""
 );
 
-/*
-// ACLs for this application
 $app_acl = array(
     array(
         "name" => "BASIC",
-        "description" => N_("COGIP_AUDIT:Basic ACL")
+        "description" => N_("coa:basic access"),
+        "group_default" => "Y"
     )
 );
-// Actions for this application
+
+/* Actions for this application */
 $action_desc = array(
     array(
-        "name" => "ACTION_NAME",
-        "short_name" => N_("COGIP_AUDIT:ACTION_NAME"),
-        "script" => "action.action_name.php",
-        "layout" => "action.html",
-        "function" => "action_name",
-        "root" => "N",
+        "name" => "MAIN",
+        "short_name" => N_("coa:main interface"),
+        "script" => "action.main.php",
+        "function" => "main",
+        "layout" => "main.html",
+        "root" => "Y",
+        "acl" => "BASIC"
+    ),
+    array(
+        "name" => "DOCUMENT_LIST",
+        "short_name" => N_("coa:document list"),
+        "script" => "action.document_list.php",
+        "function" => "document_list",
+        "layout" => "document_list.html",
         "acl" => "BASIC"
     )
 );
-*/
 
