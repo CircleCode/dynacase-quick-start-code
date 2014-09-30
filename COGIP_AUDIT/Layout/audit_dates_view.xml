@@ -1,0 +1,38 @@
+<style>
+    #Tcaa_f_desc tr:nth-child(0n+4), #Tcaa_f_desc tr:nth-child(0n+5) {
+        display : none;
+    }
+    .date-label {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        text-align: right;
+        padding: 2px 5px 1px 1px;
+    }
+    .date-value {
+        box-sizing: border-box;
+        display: inline-block;
+        float: left;
+        padding: 2px;
+    }
+    .date-fin {
+        padding-left: 10px;
+    }
+    .date-separator {
+        float: left;
+        padding: 2px;
+    }
+    .date-separator:before {
+        content: ":";
+    }
+</style>
+<div class="date-label">
+    <span>[L_CAA_DATE_DEBUT]</span>
+</div>
+<div class="date-separator">
+</div>
+<div class="date-value">
+    <span>[V_CAA_DATE_DEBUT]</span>
+    <span class="date-fin">[L_CAA_DATE_FIN] &nbsp;: [V_CAA_DATE_FIN]</span>
+</div>

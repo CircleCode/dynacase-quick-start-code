@@ -1,0 +1,33 @@
+<style>
+    [attrid=caa_duree] {
+        display : none;
+    }
+    [attrid=caa_date_fin] {
+        display : none;
+    }
+    .date-label {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 30%;
+        float: left;
+        text-align: right;
+        padding: 2px 5px 1px 1px;
+    }
+    .date-value {
+        box-sizing: border-box;
+        display: inline-block;
+        width: 70%;
+        float: right;
+        padding: 1px;
+    }
+    .date-duree {
+        padding-left: 10px;
+    }
+</style>
+<div class="date-label">
+    <span>[L_CAA_DATE_DEBUT]&nbsp;:</span>
+</div>
+<div class="date-value">
+    <span>[V_CAA_DATE_DEBUT]</span>
+    <span class="date-duree">[L_CAA_DUREE] &nbsp;: [V_CAA_DUREE]</span>
+</div>

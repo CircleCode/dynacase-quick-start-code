@@ -10,6 +10,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+#: COGIP_AUDIT/COGIP_AUDIT_BASE__STRUCT.csv
+#, fuzzy
+msgid "COGIP_AUDIT_BASE#cab_menu_admin_edit"
+msgstr "Édition totale (réservé admin)"
+
 #, fuzzy
 msgid "COGIP_AUDIT_BASE#title"
 msgstr ""

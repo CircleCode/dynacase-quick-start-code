@@ -33,6 +33,7 @@
         <process
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_FNC__PARAM.csv --csv-separator=&apos;;&apos; '/>
         <process command="programs/update_catalog"/>
+        <process command="./wsh.php --api=setStyle --style=STYLE/COGIP_AUDIT/COGIP_AUDIT.sty"/>
     </post-install>
     <post-upgrade>
         <process command="programs/pre_migration COGIP_AUDIT"/>
@@ -60,6 +61,7 @@
                 command='./wsh.php --api=importDocuments --file=./COGIP_AUDIT/COGIP_AUDIT_FNC__PARAM.csv --csv-separator=&apos;;&apos; '/>
         <process command="programs/post_migration COGIP_AUDIT"/>
         <process command="programs/update_catalog"/>
+        <process command="./wsh.php --api=setStyle --style=STYLE/COGIP_AUDIT/COGIP_AUDIT.sty"/>
     </post-upgrade>
 
 </module>

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COGIP_AUDIT_en\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 12:23+0200\n"
+"POT-Creation-Date: 2014-09-30 14:44+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -20,6 +20,9 @@ msgstr ""
 
 msgctxt "COGIP_AUDIT:REFERENTIEL"
 msgid "You have to delete all associated chapter before delete the ref"
+msgstr ""
+
+msgid "coa:Admin edition : beware !"
 msgstr ""
 
 msgid "coa:The date must be after today"

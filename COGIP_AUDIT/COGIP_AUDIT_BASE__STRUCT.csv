@@ -1,6 +1,6 @@
-//;Father ;Title;Id;Classe;Logical Name;
-BEGIN;;;;;COGIP_AUDIT_BASE;
-CLASS;COGIP\COGIP_AUDIT_BASE;
-//;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires;
-
-END;
+//;Father ;Title;Id;Classe;Logical Name;;;;;;;;;;;
+BEGIN;;;;;COGIP_AUDIT_BASE;;;;;;;;;;;
+CLASS;COGIP\COGIP_AUDIT_BASE;;;;;;;;;;;;;;;
+//;idattr;idframe;label;T;A;type;ord;vis;need;link;phpfile;phpfunc;elink ;constraint ;option;Commentaires
+ATTR;cab_menu_admin_edit;;Édition totale (réservé admin);;;menu;10;W;;%S%app=GENERIC&action=GENERIC_EDIT&id=%I%&zone=COGIP_AUDIT:EDIT_ADMIN;;::visibilityAdminMenu();;;;
+END;;;;;;;;;;;;;;;;

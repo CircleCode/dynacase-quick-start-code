@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!DOCTYPE table [
+        <!ELEMENT table (table-head*,table-body*)>
+
+        <!ELEMENT table-head (cell)*>
+        <!ELEMENT table-body (cell)*>
+
+        <!ELEMENT cell ANY>
+        <!ATTLIST cell
+                class CDATA #IMPLIED
+                style CDATA #IMPLIED>
+        ]>
+<table>
+    <table-body>
+        <cell>
+            <div class="cogip-fnc-cell" data-attrid="caf_action_desc">
+                <div class="cogip-label">[L_CAF_ACTION_DESC] :</div>
+                <div class="cogip-value">[V_CAF_ACTION_DESC]</div>
+            </div>
+            <div class="cogip-fnc-cell" data-attrid="caf_action_resp">
+                <div class="cogip-label">[L_CAF_ACTION_RESP] :</div>
+                <div class="cogip-value">[V_CAF_ACTION_RESP]</div>
+            </div>
+            <div class="cogip-fnc-cell" data-attrid="caf_action_date">
+                <div class="cogip-label">[L_CAF_ACTION_DATE] :</div>
+                <div class="cogip-value">[V_CAF_ACTION_DATE]</div>
+            </div>
+        </cell>
+    </table-body>
+</table>
