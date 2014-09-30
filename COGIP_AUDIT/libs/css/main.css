@@ -1,0 +1,24 @@
+.css-main-doc {
+    width: 100%;
+    border: none;
+}
+
+.css-doc-section {
+    height: 100%;
+}
+
+.css-create-button {
+    width : 100%;
+}
+
+.css-header {
+    border-bottom: 1px solid #000000;
+}
+
+.css-form-label {
+    color : white;
+}
+
+.css-form-select {
+    color: #000000;
+}

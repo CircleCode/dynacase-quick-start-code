@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COGIP_AUDIT_en\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 16:43+0200\n"
+"POT-Creation-Date: 2014-09-30 17:37+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -25,10 +25,49 @@ msgstr ""
 msgid "coa:Admin edition : beware !"
 msgstr ""
 
+msgid "coa:All"
+msgstr ""
+
+msgid "coa:Closed"
+msgstr ""
+
+msgid "coa:Create audit"
+msgstr ""
+
+msgid "coa:In progress"
+msgstr ""
+
+msgid "coa:Select an audit"
+msgstr ""
+
+msgid "coa:State"
+msgstr ""
+
 msgid "coa:The date must be after today"
 msgstr ""
 
 msgid "coa:You have to close all FNC before change state"
+msgstr ""
+
+msgid "coa:audits"
+msgstr ""
+
+msgid "coa:basic access"
+msgstr ""
+
+msgid "coa:disconnect"
+msgstr ""
+
+msgid "coa:document list"
+msgstr ""
+
+msgid "coa:main interface"
+msgstr ""
+
+msgid "coa:search"
+msgstr ""
+
+msgid "coa:titre"
 msgstr ""
 
 msgid "coa_e1"

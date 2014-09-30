@@ -1,0 +1,65 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="fr"><![endif]-->
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[TEXT:coa:audits]</title>
+    <link rel="icon" href="[DYNACASE_FAVICO]"/>
+    <link rel="shortcut icon" href="[DYNACASE_FAVICO]"/>
+    <link rel="stylesheet" href="COGIP_AUDIT/libs/css/normalize.css"/>
+    <link rel="stylesheet" href="COGIP_AUDIT/libs/css/foundation.css"/>
+    <link rel="stylesheet" href="COGIP_AUDIT/libs/css/main.css"/>
+</head>
+<body>
+<div class="fixed css-header">
+    <nav class="top-bar" data-topbar data-options="sticky_on: large">
+        <ul class="title-area">
+            <li class="name">
+                <h1><a href="#" class="js-audits">[TEXT:coa:audits]</a></h1>
+            </li>
+        </ul>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li class="has-form show-for-large-up"><a href="#" class="button js-disconnect">[TEXT:coa:disconnect]</a></li>
+            </ul>
+         </section>
+    </nav>
+</div>
+<div class="css-main js-main">
+    <div class="off-canvas-wrap docs-wrap" data-offcanvas="">
+        <div class="inner-wrap">
+            <nav class="tab-bar css-main-tab-bar">
+                <section class="left-small">
+                    <a class="left-off-canvas-toggle menu-icon js-document-menu"><span></span></a>
+                </section>
+
+                <section class="middle tab-bar-section">
+                    <h1 class="title js-current-frame-title">[TEXT:coa:Select an audit]</h1>
+                </section>
+            </nav>
+
+            <aside class="left-off-canvas-menu">
+                <a href="?app=FDL&action=OPENDOC&famid=COGIP_AUDIT_AUDIT" class="button small css-create-button js-create-button">[TEXT:coa:Create audit]</a>
+                <span class="js-document-list"></span>
+            </aside>
+
+            <section class="main-section css-doc-section">
+                <iframe id="main-doc" name="main-doc" src="" class="css-main-doc"></iframe>
+            </section>
+
+            <a class="exit-off-canvas"></a>
+
+        </div>
+    </div>
+</div>
+<form style="display:none;" action="?app=AUTHENT&action=LOGOUT" method="POST" name="disconnect"
+      id="disconnect">
+    <input type="hidden" name="SeenBefore" value="1">
+    <input type="hidden" name="logout" value="Y">
+</form>
+<script type="text/javascript" src="COGIP_AUDIT/libs/js/jquery.js"></script>
+<script type="text/javascript" src="COGIP_AUDIT/libs/js/foundation.min.js"></script>
+<script type="text/javascript" src="COGIP_AUDIT/libs/js/main.js"></script>
+</body>
+</html>

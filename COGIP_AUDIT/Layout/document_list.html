@@ -1,0 +1,39 @@
+<form class="js-list-form">
+    <div class="row collapse">
+        <div class="small-12 columns">
+            <input name="keyword" type="text" placeholder="[TEXT:coa:titre]" value="[KEYWORD]">
+        </div>
+        <div class="small-2 columns">
+
+        </div>
+    </div>
+    <div class="row collapse">
+        <div class="large-12 columns">
+            <label class="css-form-label">[TEXT:coa:State]&nbsp;:
+                <select class="css-form-select" name="type">
+                    <option value="ALL" [IF TYPE_ALL]selected[ENDIF TYPE_ALL]>[TEXT:coa:All]</option>
+                    <option value="OPEN" [IF TYPE_OPEN]selected[ENDIF TYPE_OPEN]>[TEXT:coa:In progress]</option>
+                    <option value="CLOSE" [IF TYPE_CLOSE]selected[ENDIF TYPE_CLOSE]>[TEXT:coa:Closed]</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <input name="offset" type="hidden" value="[OFFSET]"/>
+    <input type="submit" value="[TEXT:coa:search]" class="button postfix js-button-list-form">
+</form>
+<div class="pagination-centered">
+    <ul class="pagination">
+        <li class="arrow [IFNOT FIRST]unavailable[ENDIF FIRST] js-previous"><a href="#">&laquo;</a></li>
+        <li class="current"><a href="">[OFFSET]</a></li>
+        <li class="arrow [IFNOT LAST]unavailable[ENDIF LAST] js-next"><a href="#">&raquo;</a></li>
+    </ul>
+ </div>
+<ul class="off-canvas-list js-docs-list">
+[BLOCK AUDITS]
+<li title="[STATE]">
+    <a class="js-doc-link" href="[URL]" data-initid="[INITID]">[TITLE]
+        <span class="right" style="background-color : [COLOR];">&nbsp;</span>
+    </a>
+</li>
+[ENDBLOCK AUDITS]
+</ul>
