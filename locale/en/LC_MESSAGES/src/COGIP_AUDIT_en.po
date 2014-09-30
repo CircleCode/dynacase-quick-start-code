@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: COGIP_AUDIT_en\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-30 15:12+0200\n"
+"POT-Creation-Date: 2014-09-30 15:53+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en\n"
@@ -41,6 +41,30 @@ msgid "coa_e4"
 msgstr ""
 
 msgid "coa_e5"
+msgstr ""
+
+msgid "coa_fnc:implementation of corrective actions"
+msgstr ""
+
+msgid "coa_fnc:writing"
+msgstr ""
+
+msgid "coa_fnc_e1"
+msgstr ""
+
+msgid "coa_fnc_e2"
+msgstr ""
+
+msgid "coa_fnc_e3"
+msgstr ""
+
+msgid "coa_fnc_t1"
+msgstr ""
+
+msgid "coa_fnc_t2"
+msgstr ""
+
+msgid "coa_fnc_t3"
 msgstr ""
 
 msgid "coa_planning"

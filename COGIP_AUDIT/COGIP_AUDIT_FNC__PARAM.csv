@@ -1,26 +1,30 @@
-//FAM;masque de saisie(MASK);<specid>;<fldid>;titre;Famille;Famille (titre);attrid;visibilité;obligatoire;;;;;;;;;;;
-ORDER;MASK;;;ba_title;msk_famid;msk_fam;msk_attrids;msk_visibilities;msk_needeeds;;;;;;;;;;;
-DOC;MASK;MASK_FNC_DEFAULT;;Édition standard;COGIP_AUDIT_FNC;Fiche de non conformité;caf_f_descriptif\ncaf_t_ecart\ncaf_f_ecart\ncaf_a_ecart\ncaf_t_action\ncaf_f_action\ncaf_a_action;-\nS\n-\nU\n-\n-\n-;\n\n\n\n\n\n;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;
+//FAM;COGIP_AUDIT_FNC__WFL(COGIP_AUDIT_FNC__WFL);<specid>;<fldid>;titre;description;famille;famille (titre);famille;famille (titre);Profil coa_fnc_e1;masque coa_fnc_e1;couleur coa_fnc_e1;contrôle de vue coa_fnc_e1;modèle de courriel coa_fnc_e1;minuteur coa_fnc_e1;accord coa_fnc_e1;activité coa_fnc_e1;Type d'affectation coa_fnc_e1;Utilisateur affecté coa_fnc_e1;auto-verrouillage coa_fnc_e1;courriel automatique coa_fnc_e1;Profil coa_fnc_e2;masque coa_fnc_e2;couleur coa_fnc_e2;contrôle de vue coa_fnc_e2;modèle de courriel coa_fnc_e2;minuteur coa_fnc_e2;accord coa_fnc_e2;activité coa_fnc_e2;Type d'affectation coa_fnc_e2;Utilisateur affecté coa_fnc_e2;auto-verrouillage coa_fnc_e2;courriel automatique coa_fnc_e2;Profil coa_fnc_e3;masque coa_fnc_e3;couleur coa_fnc_e3;contrôle de vue coa_fnc_e3;modèle de courriel coa_fnc_e3;minuteur coa_fnc_e3;accord coa_fnc_e3;activité coa_fnc_e3;Type d'affectation coa_fnc_e3;Utilisateur affecté coa_fnc_e3;auto-verrouillage coa_fnc_e3;courriel automatique coa_fnc_e3;modèle de courriel co_fnc_t1;minuteur co_fnc_t1;Minuteur persistent co_fnc_t1;Minuteur à détacher co_fnc_t1;modèle de courriel co_fnc_t2;minuteur co_fnc_t2;Minuteur persistent co_fnc_t2;Minuteur à détacher co_fnc_t2;modèle de courriel coa_fnct3;minuteur coa_fnct3;Minuteur persistent coa_fnct3;Minuteur à détacher coa_fnct3
+ORDER;COGIP_AUDIT_FNC__WFL;;;ba_title;wf_desc;wf_famid;wf_fam;dpdoc_famid;dpdoc_fam;caaf_idcoa_fnc_e1;caaf_mskidcoa_fnc_e1;caaf_colorcoa_fnc_e1;caaf_cvidcoa_fnc_e1;caaf_mtidcoa_fnc_e1;caaf_tmidcoa_fnc_e1;caaf_askidcoa_fnc_e1;caaf_activitylabelcoa_fnc_e1;caaf_affecttypecoa_fnc_e1;caaf_affectrefcoa_fnc_e1;caaf_affectlockcoa_fnc_e1;caaf_affectmailcoa_fnc_e1;caaf_idcoa_fnc_e2;caaf_mskidcoa_fnc_e2;caaf_colorcoa_fnc_e2;caaf_cvidcoa_fnc_e2;caaf_mtidcoa_fnc_e2;caaf_tmidcoa_fnc_e2;caaf_askidcoa_fnc_e2;caaf_activitylabelcoa_fnc_e2;caaf_affecttypecoa_fnc_e2;caaf_affectrefcoa_fnc_e2;caaf_affectlockcoa_fnc_e2;caaf_affectmailcoa_fnc_e2;caaf_idcoa_fnc_e3;caaf_mskidcoa_fnc_e3;caaf_colorcoa_fnc_e3;caaf_cvidcoa_fnc_e3;caaf_mtidcoa_fnc_e3;caaf_tmidcoa_fnc_e3;caaf_askidcoa_fnc_e3;caaf_activitylabelcoa_fnc_e3;caaf_affecttypecoa_fnc_e3;caaf_affectrefcoa_fnc_e3;caaf_affectlockcoa_fnc_e3;caaf_affectmailcoa_fnc_e3;caaf_trans_mtidco_fnc_t1;caaf_trans_tmidco_fnc_t1;caaf_trans_pa_tmidco_fnc_t1;caaf_trans_pu_tmidco_fnc_t1;caaf_trans_mtidco_fnc_t2;caaf_trans_tmidco_fnc_t2;caaf_trans_pa_tmidco_fnc_t2;caaf_trans_pu_tmidco_fnc_t2;caaf_trans_mtidcoa_fnct3;caaf_trans_tmidcoa_fnct3;caaf_trans_pa_tmidcoa_fnct3;caaf_trans_pu_tmidcoa_fnct3
+DOC;COGIP_AUDIT_FNC__WFL;WDOC_COGIP_AUDIT_FNC__WFL;;Fiche de non conformité;;COGIP_AUDIT_FNC;Fiche de non conformité;COGIP_AUDIT_FNC;Fiche de non conformité;;;;;;;;coa_fnc:writing;;;;;;;;;;;;coa_fnc:implementation of corrective actions;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//FAM;masque de saisie(MASK);<specid>;<fldid>;titre;Famille;Famille (titre);attrid;visibilité;obligatoire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;MASK;;;ba_title;msk_famid;msk_fam;msk_attrids;msk_visibilities;msk_needeeds;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;MASK;MASK_FNC_DEFAULT;;Édition standard;COGIP_AUDIT_FNC;Fiche de non conformité;caf_t_ecart\ncaf_a_ecart;S\nU;-\n-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 //FAM;Contrôle de vues(CVDOC);<specid>;<fldid>;titre;description;family id;famille;Identifiant de la vue;Label;Type;Zone (Layout);Masque;Masque(titre);Ordre de sélection;Affichable;Menu;id création vues par défaut;création vue;Famille pour le profil;Famille pour le profil (titre)
 ORDER;CVDOC;;;ba_title;cv_desc;cv_famid;cv_fam;cv_idview;cv_lview;cv_kview;cv_zview;cv_mskid;cv_msk;cv_order;cv_displayed;cv_menu;cv_idcview;cv_lcview;dpdoc_famid;dpdoc_fam
 DOC;CVDOC;CVDOC_FNC;;Fiche de non conformité;;COGIP_AUDIT_FNC;Fiche de non conformité;modif_default\nmodif_auditeur;Modification\nModification;VEDIT\nVEDIT;\n;MASK_FNC_DEFAULT\n;Édition standard Fiche de non conformité\n;110\n100;no\nno;\n;;;COGIP_AUDIT_FNC;Fiche de non conformité
 PROFIL;CVDOC_FNC;:useAccount;;view=core_administrator;edit=core_administrator;viewacl=core_administrator;modifyacl=core_administrator;modif_auditeur=role_auditeur;modif_default=role_utilisateurs_cogip;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;
-//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;;;;;;;;;;;;
-ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;;;;;;;;;;;;
-DOC;PFAM;PFAM_FNC;;Profil de FNC;;;;;;;;;;;;;;;;
-PROFIL;PFAM_FNC;:useAccount;;create=role_responsable_audit;icreate=role_responsable_audit;view=role_admin_fonc;edit=role_admin_fonc;viewacl=role_admin_fonc;modifyacl=role_admin_fonc;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;
-//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;;;;;;;;;;;;
-ORDER;DIR;;;ba_title;;;;;;;;;;;;;;;;
-DOC;DIR;DIR_COGIP_AUDIT_FNC;;DIR_COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;;
-//;Father;Title;Id;Classe;Logical Name;;;;;;;;;;;;;;;
-BEGIN;;Fiche de non conformité;;;COGIP_AUDIT_FNC;;;;;;;;;;;;;;;
-ICON;cogip_audit_fnc.png;;;;;;;;;;;;;;;;;;;
-DFLDID;DIR_COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;;;;
-DEFAULT;caf_redacteur;::getUserId();;;;;;;;;;;;;;;;;;
-PROFID;PFAM_FNC;;;;;;;;;;;;;;;;;;;
-CVID;CVDOC_FNC;;;;;;;;;;;;;;;;;;;
-END;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//FAM;profil de famille(PFAM);<specid>;<fldid>;titre;description;family id;famille;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;PFAM;;;ba_title;prf_desc;dpdoc_famid;dpdoc_fam;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;PFAM;PFAM_FNC;;Profil de FNC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROFIL;PFAM_FNC;:useAccount;;create=role_responsable_audit;icreate=role_responsable_audit;view=role_admin_fonc;edit=role_admin_fonc;viewacl=role_admin_fonc;modifyacl=role_admin_fonc;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//FAM;dossier(DIR);<specid>;<fldid>;titre;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ORDER;DIR;;;ba_title;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DOC;DIR;DIR_COGIP_AUDIT_FNC;;DIR_COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+//;Father;Title;Id;Classe;Logical Name;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+BEGIN;;Fiche de non conformité;;;COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+ICON;cogip_audit_fnc.png;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DFLDID;DIR_COGIP_AUDIT_FNC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+DEFAULT;caf_redacteur;::getUserId();;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+PROFID;PFAM_FNC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+CVID;CVDOC_FNC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+WID;WDOC_COGIP_AUDIT_FNC__WFL;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+END;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
