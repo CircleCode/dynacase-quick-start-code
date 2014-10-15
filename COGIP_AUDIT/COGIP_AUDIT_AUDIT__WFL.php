@@ -48,8 +48,8 @@ class COGIP_AUDIT_AUDIT__WFL extends \Dcp\Family\WDoc
         self::t_brouillon__redaction => array("nr" => true),
         self::t_brouillon__annule => array("nr" => true),
         self::t_redaction__brouillon => array("nr" => true),
-        self::t_redaction__certif => array("nr" => true),
-        self::t_redaction__refus_certif => array("nr" => true),
+        self::t_redaction__certif => array("nr" => true, "m0" => "checkAssociatedFNC"),
+        self::t_redaction__refus_certif => array("nr" => true, "m0" => "checkAssociatedFNC"),
     );
 
     public $cycle = array(
@@ -60,4 +60,17 @@ class COGIP_AUDIT_AUDIT__WFL extends \Dcp\Family\WDoc
         array("t" => self::t_redaction__refus_certif, "e1" => self::e_redaction, "e2" => self::e_refus_certif),
     );
 
+    public function checkAssociatedFNC()
+    {
+        //Search in the FNC
+        $searchDoc = new \SearchDoc("", \Dcp\Family\Cogip_audit_fnc::familyName);
+        //If you find one FNC it's enough (speed the search)
+        $searchDoc->setSlice(1);
+        $searchDoc->addFilter("%s = '%d'", \Dcp\AttributeIdentifiers\Cogip_audit_fnc::caf_audit, $this->doc->getPropertyValue("initid"));
+        $searchDoc->addFilter("state <> '%s'", COGIP_AUDIT_FNC__WFL::e_clos);
+        if ($searchDoc->onlyCount() > 0) {
+            return _("coa:You have to close all FNC before change state");
+        }
+        return "";
+    }
 }
