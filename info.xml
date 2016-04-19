@@ -4,6 +4,9 @@
 
     <requires>
         <module comp="ge" name="dynacase-core" version="3.2"/>
+        <module name="dynacase-onefam" comp="ge" version="3.2"/>
+        <module name="dynacase-admin-uis" comp="ge" version="1.0"/>
+        <module name="dynacase-app-switcher" comp="ge" version="1.0"/>
     </requires>
 
     <post-install>
