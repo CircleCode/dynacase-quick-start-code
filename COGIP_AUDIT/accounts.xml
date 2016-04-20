@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accounts date="2016-04-20T14:50:32" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XSD/accounts.xsd">
+  <roles>
+    <role id="13">
+      <reference>role57176b080389a</reference>
+      <displayName>Utilisateur COGIP</displayName>
+      <document family="ROLE">
+        <role title="Utilisateur COGIP" revision="0" modification-date="2016-04-20T13:42:00" version="" state=""/>
+      </document>
+    </role>
+  </roles>
+  <groups>
+    <group id="2">
+      <reference>all</reference>
+      <displayName>Utilisateurs</displayName>
+      <document family="IGROUP">
+        <igroup name="GDEFAULT" title="Utilisateurs" revision="0" modification-date="2016-04-20T14:09:04" version="" state=""/>
+      </document>
+    </group>
+    <group id="12">
+      <reference>grp_user_cogip</reference>
+      <displayName>Utilisateurs COGIP</displayName>
+      <associatedRoles reset="false">
+        <associatedRole reference="role57176b080389a"/>
+      </associatedRoles>
+      <parentGroups reset="false">
+        <parentGroup reference="all"/>
+      </parentGroups>
+      <document family="IGROUP">
+        <igroup title="Utilisateurs COGIP" revision="0" modification-date="2016-04-20T14:40:10" version="" state=""/>
+      </document>
+    </group>
+  </groups>
+  <users>
+    <user id="11">
+      <login>martin.jean</login>
+      <firstname>Jean</firstname>
+      <lastname>Martin</lastname>
+      <mail>martin.jean@quickstartcogip.com</mail>
+      <status activated="true"/>
+      <password crypted="true">$5$W5l3wgIyC3wKO6ML$Vl875jOLPfxZO8iM/Pvfc/NvV2CjoqGSfOPNUXBUM6B</password>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_user_cogip"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser title="Martin Jean" revision="0" modification-date="2016-04-20T14:40:10" version="" state=""/>
+      </document>
+    </user>
+  </users>
+</accounts>

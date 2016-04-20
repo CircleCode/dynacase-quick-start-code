@@ -11,6 +11,7 @@
 
     <post-install>
         <process command="programs/record_application COGIP_AUDIT"/>
+        <process command='./wsh.php --api=importAccounts --file=COGIP_AUDIT/accounts.xml'/>
         <process command="programs/update_catalog"/>
     </post-install>
     <post-upgrade>
