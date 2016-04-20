@@ -2,10 +2,31 @@
 <accounts date="2016-04-20T14:50:32" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XSD/accounts.xsd">
   <roles>
     <role id="13">
-      <reference>role57176b080389a</reference>
+      <reference>role_utilisateurs_cogip</reference>
       <displayName>Utilisateur COGIP</displayName>
       <document family="ROLE">
         <role title="Utilisateur COGIP" revision="0" modification-date="2016-04-20T13:42:00" version="" state=""/>
+      </document>
+    </role>
+    <role>
+      <reference>role_responsable_audit</reference>
+      <displayName>Responsable des audits</displayName>
+      <document family="ROLE">
+        <role title="Responsable des audits"/>
+      </document>
+    </role>
+    <role>
+      <reference>role_auditeur</reference>
+      <displayName>Auditeur</displayName>
+      <document family="ROLE">
+        <role title="Auditeur"/>
+      </document>
+    </role>
+    <role>
+      <reference>role_admin_fonc</reference>
+      <displayName>Administrateur fonctionnel</displayName>
+      <document family="ROLE">
+        <role title="Administrateur fonctionnel"/>
       </document>
     </role>
   </roles>
@@ -21,13 +42,76 @@
       <reference>grp_user_cogip</reference>
       <displayName>Utilisateurs COGIP</displayName>
       <associatedRoles reset="false">
-        <associatedRole reference="role57176b080389a"/>
+        <associatedRole reference="role_utilisateurs_cogip"/>
       </associatedRoles>
       <parentGroups reset="false">
         <parentGroup reference="all"/>
       </parentGroups>
       <document family="IGROUP">
         <igroup title="Utilisateurs COGIP" revision="0" modification-date="2016-04-20T14:40:10" version="" state=""/>
+      </document>
+    </group>
+    <group>
+      <reference>grp_dsi</reference>
+      <displayName>DSI</displayName>
+      <associatedRoles reset="false">
+      </associatedRoles>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_user_cogip"/>
+      </parentGroups>
+      <document family="IGROUP">
+        <igroup title="DSI"/>
+      </document>
+    </group>
+    <group>
+      <reference>grp_auditeurs</reference>
+      <displayName>Auditeurs</displayName>
+      <associatedRoles reset="false">
+        <associatedRole reference="role_auditeur"/>
+      </associatedRoles>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_user_cogip"/>
+      </parentGroups>
+      <document family="IGROUP">
+        <igroup title="Auditeurs"/>
+      </document>
+    </group>
+    <group>
+      <reference>grp_admin_fonc</reference>
+      <displayName>Administrateurs fonctionnels</displayName>
+      <associatedRoles reset="false">
+        <associatedRole reference="role_admin_fonc"/>
+      </associatedRoles>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_user_cogip"/>
+      </parentGroups>
+      <document family="IGROUP">
+        <igroup title="Administrateurs Fonctionnels"/>
+      </document>
+    </group>
+    <group>
+      <reference>grp_responsable_audit</reference>
+      <displayName>Responsables des audits</displayName>
+      <associatedRoles reset="false">
+        <associatedRole reference="role_responsable_audit"/>
+      </associatedRoles>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_auditeurs"/>
+      </parentGroups>
+      <document family="IGROUP">
+        <igroup title="Responsables des audits"/>
+      </document>
+    </group>
+    <group>
+      <reference>grp_section_risque_operationnel_qualite</reference>
+      <displayName>Section Risque Opérationnel et Qualité</displayName>
+      <associatedRoles reset="false">
+      </associatedRoles>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_auditeurs"/>
+      </parentGroups>
+      <document family="IGROUP">
+        <igroup title="Section Risque Opérationnel et Qualité"/>
       </document>
     </group>
   </groups>
@@ -40,10 +124,69 @@
       <status activated="true"/>
       <password crypted="true">$5$W5l3wgIyC3wKO6ML$Vl875jOLPfxZO8iM/Pvfc/NvV2CjoqGSfOPNUXBUM6B</password>
       <parentGroups reset="false">
-        <parentGroup reference="grp_user_cogip"/>
+        <parentGroup reference="grp_section_risque_operationnel_qualite"/>
       </parentGroups>
       <document family="IUSER">
         <iuser title="Martin Jean" revision="0" modification-date="2016-04-20T14:40:10" version="" state=""/>
+      </document>
+    </user>
+    <user>
+      <login>arthaud.priscilla</login>
+      <firstname>Priscilla</firstname>
+      <lastname>Arthaud</lastname>
+      <mail>arthaud.priscilla@quickstartcogip.com</mail>
+      <status activated="true"/>
+      <password crypted="true">$5$W5l3wgIyC3wKO6ML$Vl875jOLPfxZO8iM/Pvfc/NvV2CjoqGSfOPNUXBUM6B</password>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_section_risque_operationnel_qualite"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser title="Arthaud Priscilla"/>
+      </document>
+    </user>
+    <user>
+      <login>luc.arnaud</login>
+      <firstname>Arnaud</firstname>
+      <lastname>Luc</lastname>
+      <mail>luc.arnaud@quickstartcogip.com</mail>
+      <status activated="true"/>
+      <password crypted="true">$5$W5l3wgIyC3wKO6ML$Vl875jOLPfxZO8iM/Pvfc/NvV2CjoqGSfOPNUXBUM6B</password>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_section_risque_operationnel_qualite"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser title="Luc Arnaud"/>
+      </document>
+    </user>
+    <user>
+      <login>marthe.karine</login>
+      <firstname>Karine</firstname>
+      <lastname>Marthe</lastname>
+      <mail>marthe.karine@quickstartcogip.com</mail>
+      <status activated="true"/>
+      <password crypted="true">$5$W5l3wgIyC3wKO6ML$Vl875jOLPfxZO8iM/Pvfc/NvV2CjoqGSfOPNUXBUM6B</password>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_section_risque_operationnel_qualite"/>
+        <parentGroup reference="grp_responsable_audit"/>
+        <parentGroup reference="grp_admin_fonc"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser title="Marthe Karine"/>
+      </document>
+    </user>
+    <user>
+      <login>arnic.marina</login>
+      <firstname>Marina</firstname>
+      <lastname>Arnic</lastname>
+      <mail>arnic.marina@quickstartcogip.com</mail>
+      <status activated="true"/>
+      <password crypted="true">$5$W5l3wgIyC3wKO6ML$Vl875jOLPfxZO8iM/Pvfc/NvV2CjoqGSfOPNUXBUM6B</password>
+      <parentGroups reset="false">
+        <parentGroup reference="grp_dsi"/>
+        <parentGroup reference="grp_admin_fonc"/>
+      </parentGroups>
+      <document family="IUSER">
+        <iuser title="Arnic Marina"/>
       </document>
     </user>
   </users>

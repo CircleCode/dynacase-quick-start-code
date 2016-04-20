@@ -17,6 +17,7 @@
     <post-upgrade>
         <process command="programs/pre_migration COGIP_AUDIT"/>
         <process command="programs/record_application COGIP_AUDIT"/>
+        <process command='./wsh.php --api=importAccounts --file=COGIP_AUDIT/accounts.xml'/>
         <process command="programs/post_migration COGIP_AUDIT"/>
         <process command="programs/update_catalog"/>
     </post-upgrade>
